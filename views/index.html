@@ -2,8 +2,6 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <!--********Logo**********-->
-  <link rel="icon" type="image/png" sizes="35x35" href="/public/assets/image/logo.png">
   <!--******Bootstrap*****-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -20,11 +18,10 @@
 <body>
     
      <!-----------Barra de navegacion---------------->
-  <nav class="navbar navbar-expand-lg azul-oscuro">
-    <div class="container-fluid">
-      <div class="d-flex align-items-center">
-        <img src="/public/assets/image/logo.png" style="width: 40px;" height="40px">
-        <a class="navbar-brand fw-bold text-white ms-1" href="#">Pos Express</a>
+  <nav class="navbar navbar-expand-lg azul-oscuro ">
+    <div class="container-fluid mx-lg-3 ">
+      <div>
+        <a class="navbar-brand fw-bold text-white  fs-3" href="#">Pos Express</a>
       </div>
 
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -32,28 +29,28 @@
         <span><img src="/public/assets/image/Menu.png" width="30" height="30" alt="menu" />
         </span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-4">
+      <div class="collapse navbar-collapse   justify-content-lg-end" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2 mt-4 gap-lg-3 my-lg-2 ">
           <li class="nav-item">
-            <a class="nav-link  text-white fs-6  active" aria-current="page" href="#">Home</a>
+            <a class="nav-link  text-white fs-6  fw-semibold active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white fs-6 " aria-current="page" href="#">Características</a>
+            <a class="nav-link text-white fs-6  fw-semibold" aria-current="page" href="#">Características</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white fs-6 " aria-current="page">Soporte</a>
+            <a class="nav-link text-white fs-6  fw-semibold" aria-current="page">Soporte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white fs-6 " aria-current="page">Contacto</a>
+            <a class="nav-link text-white fs-6  fw-semibold" aria-current="page">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white fs-6 " aria-current="page">Iniciar Sesion</a>
+            <a href="#" class="btn btn-primary btn-sm  text-center align-items-center justify-content-center btn_inse nav-link text-dark fs-6 p-2 fw-semibold border-0" aria-current="page">Iniciar Sesión</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!--********Fin barra de navegacion*********-->
+  <!-----------Fin barra de navegacion----------->
 
 
   <!--------Contenido--------->
@@ -231,7 +228,10 @@
 
     </section>
   </main>
+  <!----Fin contenido---------->
 
+
+  <!-------Seccion footer------>
   <footer class="azul-oscuro pb-0 d-lg-flex  ">
     <div class="">
       <img class="img-fluid" src="/public/assets/image/logo.png">

@@ -35,6 +35,20 @@ body{
     outline: none !important;
     box-shadow: none !important;
   }
+
+  /*--Boton inciar sesion navbar--*/
+
+  .btn_inse{
+    background-color: #c09813;
+  }
+
+  .btn_inse:hover{
+    background-color: #e0b218;
+    transform: scale(1.01);
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    
+  }
   /*--------------------------*/
 
 
