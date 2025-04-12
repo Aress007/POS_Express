@@ -1,0 +1,102 @@
+body{
+    color: white;
+  
+}
+
+
+
+/*------Clase para los colores*----------*/
+
+.azul-oscuro{
+    background-color:  #09376D;
+
+}
+
+.azul-text{
+  color: #09376D;
+}
+
+.azul-claro{
+  color: var(--bs-info);
+}
+
+
+/*--------------------------------------------*/
+
+/**Descativar borde negro del boton menu o hamburguesa**/
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important; /* opcional: si quieres que el botón esté más justo al ícono */
+    background: transparent !important; /* opcional: evita colores de fondo */
+  }
+  .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  /*--------------------------*/
+
+
+
+  /*-----------section bienvenida---------*/
+  
+  .titulo{
+    letter-spacing: 8px;
+    font-weight: 900;
+    font-family:'Arial';
+
+  }
+
+  .subtitulo_1,  .subtitulo_2{
+    font-family: "Raleway";
+    color: var(--bs-info);
+    
+
+  }
+
+  .descripcion{
+    font-size: 0.76rem;
+  }
+
+  /**----------------------------------*/
+
+
+
+
+/*-----------Section de tarjetas------------*/
+.tarjeta-1{
+  background-color: #09376D;
+  
+ 
+}
+.tarjeta1_descripcion p{
+  font-size: 0.75rem;
+}
+
+.tarjeta2_descripcion p, .tarjeta3_descripcion p, .tarjeta4_descripcion p{
+  font-size: 1rem;
+}
+
+.tarjeta-2{
+  background-color: #4977A7;
+  
+}
+
+.tarjeta-3{
+ background-color: #9FC3E1;
+ color: #09376D;
+ 
+}
+
+.tarjeta-4{
+  background-color: #ccdcf0;
+  color: #09376D;
+  
+
+}
+
+/*----------Seccion de servicios-----------*/
+.text_servicios p{
+  font-size: 0.50rem;
+}
