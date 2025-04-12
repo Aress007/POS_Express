@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Usuarios</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header><h1>Gestión de Usuarios</h1></header>
+    <main>
+        <form>
+            <input type="text" placeholder="Nombre de usuario" required>
+            <input type="password" placeholder="Contraseña" required>
+            <select required>
+                <option value="">Rol</option>
+                <option value="admin">Administrador</option>
+                <option value="cajero">Cajero</option>
+            </select>
+            <button type="submit">Registrar</button>
+        </form>
+        <table>
+            <thead>
+                <tr><th>ID</th><th>Usuario</th><th>Rol</th><th>Acciones</th></tr>
+            </thead>
+            <tbody id="usuarios-tbody"></tbody>
+        </table>
+    </main>
+</body>
+</html>
