@@ -19,8 +19,6 @@ body{
 .azul-claro{
   color: var(--bs-info);
 }
-
-
 /*--------------------------------------------*/
 
 /**Descativar borde negro del boton menu o hamburguesa**/
@@ -79,18 +77,20 @@ body{
 
 
 /*-----------Section de tarjetas------------*/
-.tarjeta-1{
-  background-color: #09376D;
-  
- 
-}
+
 .tarjeta1_descripcion p{
   font-size: 0.75rem;
 }
 
-.tarjeta2_descripcion p, .tarjeta3_descripcion p, .tarjeta4_descripcion p{
+.tarjeta2_descripcion p, 
+.tarjeta3_descripcion p, 
+.tarjeta4_descripcion p{
   font-size: 1rem;
 }
+
+.tarjeta-1{
+    background-color: #09376D;  
+  }
 
 .tarjeta-2{
   background-color: #4977A7;
@@ -109,6 +109,25 @@ body{
   
 
 }
+
+.tarjeta-1,
+.tarjeta-2,
+.tarjeta-3,
+.tarjeta-4 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  overflow: hidden;
+}
+
+.tarjeta-1:hover,
+.tarjeta-2:hover,
+.tarjeta-3:hover,
+.tarjeta-4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);  
+}
+
+
+
 
 /*----------Seccion de servicios-----------*/
 .text_servicios p{
