@@ -11,6 +11,8 @@ body {
   background-color: #f9f9f9;
   margin: 0; padding: 0;
   display: flex;
+  gap: 20px;
+
 }
 
 /*------Colores personalizados----------*/
@@ -61,29 +63,50 @@ body {
 }
 
 main {
-  padding: 20px;
+  margin-top: 100px;
+
 }
 
 /*barra de navegacion izquierda*/
 
-.BarradeNavegacion{
+.BarradeNavegacion {
   background-color: var(--azul-oscuro);
   margin-top: 78px;
-  height:100vh;
-  width: 200px;
-  display :flex;
+  height: 100vh;
+  width: 250px;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-start; /* Alinea hacia arriba */
+  padding-top: 20px;
 }
-a{
+
+.BarradeNavegacion ul {
+  width: 100%; /* Asegura que la lista use todo el ancho */
+  padding: 0;
+  margin: 0;
+}
+
+.BarradeNavegacion li {
+  width: 100%; /* Asegura que cada li use todo el ancho */
+  list-style: none;
+}
+
+.a_botton_barra {
   text-decoration: none;
   color: black;
-  padding: 4px;
   background-color: white;
-  margin: 4px;
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px 15px; /* Espaciado interno para mejor apariencia */
+  box-sizing: border-box;
 }
-  
+
+.i_icon {
+  margin-right: 10px;
+}
+
  
 
 
